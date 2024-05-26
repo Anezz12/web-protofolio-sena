@@ -24,7 +24,7 @@ export default function RootLayout({
     <html lang="en">
       <ActiveSectionContextProvider>
         <body
-          className={`${inter.className} bg-gray-950 text-white min-h-screen`}
+          className={`${inter.className} md:bg-gray-950 bg-zinc-900 text-white min-h-screen`}
         >
           <Container>
             <Header />
