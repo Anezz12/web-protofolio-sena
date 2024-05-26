@@ -4,8 +4,8 @@ import { navLink } from "@/lib/data";
 
 export default function Footer() {
   return (
-    <footer className=" mt-auto text-center text-zinc-400 py-5 px-7 border-t border-zinc-800 ">
-      <div className="flex flex-col  justify-between items-center">
+    <footer className="mt-auto text-center text-zinc-400 py-5 px-24 border-t border-zinc-800">
+      <div className="flex flex-col md:flex-row justify-between items-center">
         <div className="flex items-center gap-5 mb-5 text-white">
           {navLink.map((link, index) => {
             return (
@@ -20,7 +20,9 @@ export default function Footer() {
             );
           })}
         </div>
-        <small>&copy; 2023 Harsena Argretya All right reserved.</small>
+        <small className="flex flex-col md:flex-row items-end gap-5 mb-5 text-white">
+          &copy; 2023 Harsena Argretya All right reserved.
+        </small>
       </div>
     </footer>
   );
