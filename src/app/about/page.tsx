@@ -1,29 +1,7 @@
 import Social from "@/components/social-media";
 import Image from "next/image";
-import Link from "next/link";
-import { FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa6";
 
-export default function Page({ className }: { className?: string }) {
-  const socials = [
-    {
-      link: "https://www.linkedin.com/in/harsena-argretya/",
-      label: "LinkedIn",
-      Icon: FaLinkedin,
-      text: "Follow Linkedin Saya",
-    },
-    {
-      link: "https://github.com/Anezz12",
-      label: "Github",
-      Icon: FaGithub,
-      text: "Follow Github Saya",
-    },
-    {
-      link: "https://instagram.com/argretya",
-      label: "Instagram",
-      Icon: FaInstagram,
-      text: "Follow Instagram Saya",
-    },
-  ];
+export default function Page() {
   return (
     <section className="pt-32 px-1 max-w-[1100px]">
       <div className="flex lg:flex-row flex-col-reverse  justify-between">

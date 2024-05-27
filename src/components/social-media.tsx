@@ -1,8 +1,7 @@
-import Link from "next/link";
-import React from "react";
-import { FaGithub } from "react-icons/fa6";
-import { FaLinkedin } from "react-icons/fa6";
-import { FaInstagram } from "react-icons/fa6";
+// import Link from "next/link";
+// import { FaGithub } from "react-icons/fa6";
+// import { FaLinkedin } from "react-icons/fa6";
+// import { FaInstagram } from "react-icons/fa6";
 
 function Social({ className }: { className?: string }) {
   // const socials = [
