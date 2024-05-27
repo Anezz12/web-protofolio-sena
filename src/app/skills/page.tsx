@@ -1,6 +1,6 @@
 export default function Page() {
   return (
-    <section className="flex flex-col items-center pt-56 ax-w-[800px]">
+    <section className="flex flex-col items-center pt-56 max-w-[900px]">
       <div className="relative px-4 sm:px-8 lg:px-12">
         <div className="relative px-4 sm:px-8 lg:px-12">
           <div className="mx-auto max-w-2xl lg:max-w-2xl">

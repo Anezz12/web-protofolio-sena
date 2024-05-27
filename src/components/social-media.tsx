@@ -1,8 +1,8 @@
 function Social({ className }: { className?: string }) {
   return (
     <section>
-      <ul className="">
-        <li className="flex">
+      <ul className="mb-32">
+        <li className="flex ">
           <a
             className="group flex text-sm font-medium text-zinc-800 transition hover:text-teal-600 dark:text-zinc-200 dark:hover:text-teal-400"
             href="https://twitter.com/argretya/"
