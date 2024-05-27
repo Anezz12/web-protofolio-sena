@@ -1,3 +1,4 @@
+import Social from "@/components/social-media";
 import Image from "next/image";
 import Link from "next/link";
 import { FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa6";
@@ -72,7 +73,7 @@ export default function Page({ className }: { className?: string }) {
               className="aspect-square rotate-3 rounded-2xl bg-zinc-100 object-cover dark:bg-zinc-800"
             />
           </div>
-          <div className="grid grid-cols-1 gap-5 text-white mb-10">
+          {/* <div className="grid grid-cols-1 gap-5 text-white mb-10">
             {socials.map((social, index) => {
               const Icon = social.Icon;
               return (
@@ -87,7 +88,8 @@ export default function Page({ className }: { className?: string }) {
                 </Link>
               );
             })}
-          </div>
+          </div> */}
+          <Social />
         </div>
       </div>
     </section>
