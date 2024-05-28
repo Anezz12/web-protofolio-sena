@@ -1,5 +1,9 @@
 export const navLink = [
   {
+    name: "Home",
+    href: "/",
+  },
+  {
     name: "About",
     href: "/about",
   },
