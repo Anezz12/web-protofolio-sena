@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function Page() {
   const projects = [
     {
-      name: "Portofolio",
+      name: "Landing Page ",
       description: "Personal Website",
       url: "https://harsena-argretya.vercel.app",
       // logo: "/logos/pejuang-kode.svg",
