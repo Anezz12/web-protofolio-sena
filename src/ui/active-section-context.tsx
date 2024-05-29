@@ -31,8 +31,8 @@ export default function ActiveSectionContextProvider({
       setActiveSection("About");
     } else if (currentPath === "/projects") {
       setActiveSection("Projects");
-    } else if (currentPath === "/talks") {
-      setActiveSection("Talks");
+    } else if (currentPath === "/skills") {
+      setActiveSection("Skills");
     } else if (currentPath === "/uses") {
       setActiveSection("Uses");
     } else {
