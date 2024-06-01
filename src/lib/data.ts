@@ -12,8 +12,8 @@ export const navLink = [
     href: "/projects",
   },
   {
-    name: "Skills",
-    href: "/skills",
+    name: "Blog",
+    href: "/blog",
   },
   {
     name: "Uses",

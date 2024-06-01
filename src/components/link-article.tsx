@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 export default function LinkA() {
@@ -7,12 +8,12 @@ export default function LinkA() {
         <div className="md:col-span-3 group relative flex flex-col items-start">
           <h2 className="text-base font-semibold tracking-tight text-zinc-800 dark:text-zinc-100">
             <div className="absolute -inset-y-6 -inset-x-4 z-0 scale-95 bg-zinc-50 opacity-0 transition group-hover:scale-100 group-hover:opacity-100 dark:bg-zinc-800/50 sm:-inset-x-6 sm:rounded-2xl"></div>
-            <a href="/blog/react-dom-jsx">
+            <Link href="/blog/what-react">
               <span className="absolute -inset-y-6 -inset-x-4 z-20 sm:-inset-x-6 sm:rounded-2xl"></span>
               <span className="relative z-10">
-                Mengenal React, React DOM, dan JSX
+                Apa Itu React? Apakah Dia Itu Library atau Framework?
               </span>
-            </a>
+            </Link>
           </h2>
           <time
             dateTime="2018-12-28T00:00:00.000Z"
@@ -24,11 +25,12 @@ export default function LinkA() {
             >
               <span className="h-4 w-0.5 rounded-full bg-zinc-200 dark:bg-zinc-500"></span>
             </span>
-            December 28, 2018
+            Juni 1, 2024
           </time>
           <p className="relative z-10 mt-2 text-sm text-zinc-600 dark:text-zinc-400">
-            Pengantar awal library React, React DOM, dan syntax JSX beserta
-            latar belakangnya.
+            React adalah salah satu teknologi yang sangat populer di kalangan
+            pengembang web saat ini. Tapi, apa sebenarnya React itu? Apakah dia
+            sebuah library atau framework? Mari kita bahas lebih dalam.
           </p>
           <div
             aria-hidden="true"
@@ -54,7 +56,7 @@ export default function LinkA() {
           dateTime="2018-12-28T00:00:00.000Z"
           className="mt-1 hidden md:block relative z-10 order-first mb-3  items-center text-sm text-zinc-400 dark:text-zinc-500"
         >
-          December 28, 2018
+          Juni 1, 2024
         </time>
       </article>
       {/* 2 */}
