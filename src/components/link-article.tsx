@@ -60,7 +60,7 @@ export default function LinkA() {
         </time>
       </article>
       {/* 2 */}
-      <article className="md:grid md:grid-cols-4 md:items-baseline mt-20 border-b py-5 border-zinc-800">
+      {/* <article className="md:grid md:grid-cols-4 md:items-baseline mt-20 border-b py-5 border-zinc-800">
         <div className="md:col-span-3 group relative flex flex-col items-start">
           <h2 className="text-base font-semibold tracking-tight text-zinc-800 dark:text-zinc-100">
             <div className="absolute -inset-y-6 -inset-x-4 z-0 scale-95 bg-zinc-50 opacity-0 transition group-hover:scale-100 group-hover:opacity-100 dark:bg-zinc-800/50 sm:-inset-x-6 sm:rounded-2xl"></div>
@@ -113,9 +113,9 @@ export default function LinkA() {
         >
           December 28, 2018
         </time>
-      </article>
+      </article> */}
       {/* 3 */}
-      <article className="md:grid md:grid-cols-4 md:items-baseline mt-20 mb-20 border-b py-5 border-zinc-800">
+      {/* <article className="md:grid md:grid-cols-4 md:items-baseline mt-20 mb-20 border-b py-5 border-zinc-800">
         <div className="md:col-span-3 group relative flex flex-col items-start">
           <h2 className="text-base font-semibold tracking-tight text-zinc-800 dark:text-zinc-100">
             <div className="absolute -inset-y-6 -inset-x-4 z-0 scale-95 bg-zinc-50 opacity-0 transition group-hover:scale-100 group-hover:opacity-100 dark:bg-zinc-800/50 sm:-inset-x-6 sm:rounded-2xl"></div>
@@ -168,7 +168,7 @@ export default function LinkA() {
         >
           December 28, 2018
         </time>
-      </article>
+      </article> */}
     </div>
   );
 }
