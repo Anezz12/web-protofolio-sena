@@ -21,15 +21,15 @@ const experiences: Experience[] = [
     alt: "Sma 1 Mojotengah",
     company: "SMA 1 Mojotengah",
     // role: "Senior Software Engineer 2",
-    startYear: 2018,
-    endYear: 2024,
+    startYear: 2019,
+    endYear: 2022,
   },
   {
     alt: "SMP 1 MOJOTENGAH",
     company: "SMP 1 MOJOTENGAH",
     // role: "Software Engineer",
-    startYear: 2017,
-    endYear: 2018,
+    startYear: 2016,
+    endYear: 2019,
   },
 ];
 export default function Form() {

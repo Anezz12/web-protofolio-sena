@@ -6,7 +6,9 @@ export default function Page() {
       <div className="relative px-4 sm:px-8 lg:px-12">
         <div className="mx-auto max-w-2xl lg:max-w-2xl">
           <header className="text-4xl font-bold leading-[3rem] sm:leading-normal sm:text-5xl mt-20">
-            {"Things I’ve made trying to put my dent in the universe."}
+            {
+              "Proof that I have learned, sometimes I have to write to understand something."
+            }
           </header>
           <LinkA />
         </div>
