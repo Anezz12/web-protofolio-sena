@@ -7,6 +7,7 @@ import ActiveSectionContextProvider, {
 import Header from "@/components/header";
 import Footer from "@/components/footer";
 import Container from "@/components/container";
+import Logo from "@/components/logo";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -27,6 +28,7 @@ export default function RootLayout({
           className={`${inter.className} md:bg-gray-950 bg-zinc-900 text-white min-h-screen`}
         >
           <Container>
+            {/* <Logo /> */}
             <Header />
             {children}
             <Footer />

@@ -62,7 +62,7 @@ export default function Form() {
             <div className="mt-4">
               <span className=" text-zinc-500 text-sm">
                 {
-                  "Anonymously ask me any questions you might have, and I'll try my best to answer them publicly."
+                  "Ask me any questions anonymously, and I will try my best to answer them."
                 }
               </span>
               <Button text="Ask me anything" />
@@ -70,10 +70,10 @@ export default function Form() {
             <div className="mt-4">
               <span className="text-zinc-500 text-sm">
                 {
-                  "I used to share my answers in Twitter/X. But now I publish them as podcast episodes."
+                  "sometimes I like to write blogs to help me learn to memorize easily."
                 }
               </span>
-              <Button text="Listen My answer" />
+              <Button text="Visit my blog" />
             </div>
           </div>
         </div>
