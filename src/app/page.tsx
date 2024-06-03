@@ -3,7 +3,7 @@ import Avatar from "@/components/image";
 import Link from "next/link";
 import { FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa6";
 
-export default function Page({ className }: { className?: string }) {
+export default function Page() {
   const socials = [
     {
       link: "https://www.linkedin.com/in/harsena-argretya/",
