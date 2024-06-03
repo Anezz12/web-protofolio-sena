@@ -8,6 +8,8 @@ import Header from "@/components/header";
 import Footer from "@/components/footer";
 import Container from "@/components/container";
 import Logo from "@/components/logo";
+import ThemeContextProvider from "@/ui/theme-context";
+import ThemeSwitch from "@/components/theme-switch";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -23,18 +25,21 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <ActiveSectionContextProvider>
-        <body
-          className={`${inter.className} md:bg-gray-950 bg-zinc-900 text-white min-h-screen`}
-        >
-          <Container>
-            {/* <Logo /> */}
-            <Header />
-            {children}
-            <Footer />
-          </Container>
-        </body>
-      </ActiveSectionContextProvider>
+      <ThemeContextProvider>
+        <ActiveSectionContextProvider>
+          <body
+            className={`${inter.className} md:bg-gray-950 bg-zinc-900 dark:bg-white dark:md:bg-zinc-200 text-white min-h-screen`}
+          >
+            <Container>
+              {/* <Logo /> */}
+              <ThemeSwitch />
+              <Header />
+              {children}
+              <Footer />
+            </Container>
+          </body>
+        </ActiveSectionContextProvider>
+      </ThemeContextProvider>
     </html>
   );
 }

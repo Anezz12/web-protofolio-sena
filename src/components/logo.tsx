@@ -22,7 +22,7 @@ function Logo() {
 
   return (
     <div
-      className={`fixed top-4  z-50 transition-opacity duration-300 ml-16 ${
+      className={`fixed bottom-4 left-4 z-50 transition-opacity duration-300 ml-16 ${
         showButton ? "opacity-100" : "opacity-0"
       }`}
     >
