@@ -31,10 +31,10 @@ export default function Page() {
     <section className="sm:px-8 mt-16 sm:mt-32">
       <div className="relative px-4 sm:px-8 lg:px-12">
         <div className="mx-auto max-w-2xl lg:max-w-2xl">
-          <header className="text-4xl font-bold leading-[3rem] sm:leading-normal sm:text-5xl mt-20">
+          <header className="text-4xl font-bold leading-[3rem] sm:leading-normal sm:text-5xl mt-20 dark:text-black">
             {"Things I’ve made trying to put my dent in the universe."}
           </header>
-          <p className="text-zinc-500 mx-auto leading-8">
+          <p className="text-zinc-400 mx-auto leading-8">
             {
               "As a junior Web Development, I love creating simple web projects, but these are the projects I'm most proud of. Many of them are open source, so if you see something that interests you, take a look at the code and contribute if you have ideas to improve it."
             }
@@ -48,8 +48,8 @@ export default function Page() {
                 {/* <div className="relative z-10 flex h-12 w-12 items-center justify-center rounded-full bg-white shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 dark:border dark:border-zinc-700/50 dark:bg-zinc-800 dark:ring-0">
                     <img src={project.logo} alt="" className="h-8 w-8" />
                   </div> */}
-                <h2 className="mt-6 text-base font-semibold text-zinc-800 dark:text-zinc-100">
-                  <div className="absolute -inset-y-6 -inset-x-4 z-0 scale-95 bg-zinc-50 opacity-0 transition group-hover:scale-100 group-hover:opacity-100 dark:bg-zinc-800/50 sm:-inset-x-6 sm:rounded-2xl"></div>
+                <h2 className="mt-6 text-base font-semibold dark:text-zinc-800 text-zinc-100">
+                  <div className="absolute -inset-y-6 -inset-x-4 z-0 scale-95 dark:bg-zinc-50 opacity-0 transition group-hover:scale-100 group-hover:opacity-100 bg-zinc-800/50 sm:-inset-x-6 sm:rounded-2xl"></div>
                   <Link
                     href={project.url}
                     target="_blank"
@@ -59,10 +59,10 @@ export default function Page() {
                     <span className="relative z-10">{project.name}</span>
                   </Link>
                 </h2>
-                <p className="relative z-10 mt-2 text-sm text-zinc-600 dark:text-zinc-400">
+                <p className="relative z-10 mt-2 text-sm dark:text-zinc-600 text-zinc-400">
                   {project.description}
                 </p>
-                <p className="relative z-10 mt-6 flex text-sm font-medium text-zinc-500 transition group-hover:text-teal-600 dark:text-zinc-200">
+                <p className="relative z-10 mt-6 flex text-sm font-medium dark:text-zinc-500 transition group-hover:text-teal-600 text-zinc-200">
                   <svg
                     viewBox="0 0 24 24"
                     aria-hidden="true"

@@ -27,7 +27,7 @@ export default function Page({ className }: { className?: string }) {
         <div className="mx-auto max-w-2xl lg:max-w-5xl">
           <div className="max-w-4xl">
             <Avatar />
-            <h1 className="text-4xl font-bold leading-[3rem] sm:leading-normal sm:text-5xl">
+            <h1 className="text-4xl font-bold leading-[3rem] sm:leading-normal sm:text-5xl dark:text-black">
               {
                 "<Harsena /> man with enthusiasm for JavaScript, React, and NextJs."
               }
@@ -44,7 +44,7 @@ export default function Page({ className }: { className?: string }) {
               const Icon = social.Icon;
               return (
                 <Link href={social.link} key={index} aria-label={social.label}>
-                  <Icon className="w-5 h-5 hover:scale-125 transition-all" />
+                  <Icon className="w-5 h-5 hover:scale-125 transition-all dark:text-black" />
                 </Link>
               );
             })}

@@ -6,7 +6,7 @@ export default function Page() {
       <div className="relative px-4 sm:px-8 lg:px-12">
         <div className="mx-auto max-w-2xl lg:max-w-2xl">
           <Link href="/blog">
-            <div className="group mb-8 mt-20 md:ml-20 flex h-10 w-10 items-center justify-center rounded-full bg-white shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 transition dark:border dark:border-zinc-700/50 dark:bg-zinc-800 dark:ring-0 dark:ring-white/10 dark:hover:border-zinc-700 dark:hover:ring-white/20 lg:absolute lg:-left-5 lg:mb-0 lg:-mt-2 xl:-top-1.5 xl:left-0 xl:mt-0">
+            <div className="group mb-8 mt-20 md:ml-20 flex h-10 w-10 items-center justify-center rounded-full bg-white shadow-md shadow-zinc-800/5 dark:ring-1 ring-zinc-900/5 transition dark:border dark:border-zinc-700/50 dark:bg-zinc-800 ring-0 dark:ring-white/10 dark:hover:border-zinc-700 dark:hover:ring-white/20 lg:absolute lg:-left-5 lg:mb-0 lg:-mt-2 xl:-top-1.5 xl:left-0 xl:mt-0">
               <svg
                 viewBox="0 0 16 16"
                 fill="none"
@@ -24,10 +24,12 @@ export default function Page() {
             <span className=" text-zinc-500">Juni 1, 2024</span>
           </Link>
           <main className="text-zinc-400 mx-auto leading-8 mb-20">
-            <header className="text-3xl font-bold leading-[3rem] sm:leading-normal sm:text-5xl mt-10 mb-20 text-white">
+            <header className="text-3xl font-bold leading-[3rem] sm:leading-normal sm:text-5xl mt-10 mb-20 text-white dark:text-black">
               {"Apa Itu React? Apakah Dia Itu Library atau Framework?"}
             </header>
-            <h1 className="mb-2 text-xl text-white">Pengantar</h1>
+            <h1 className="mb-2 text-xl text-white dark:text-black">
+              Pengantar
+            </h1>
             <p className="text-zinc-400 mx-auto leading-8">
               {
                 "Mungkin untuk kamu yang sudah lama berkecimpung dalam dunia pembuatan website sudah tidak asing lagi mendengar kata "
@@ -41,14 +43,14 @@ export default function Page() {
               . Apa itu React? Singkatnya, React merupakan sebuah library dari
               JavaScript yang digunakan untuk membuat user interface.
             </p>
-            <h1 className="mt-20 mb-5 text-xl text-white">
+            <h1 className="mt-20 mb-5 text-xl text-white dark:text-black">
               Library vs. Framework: Apa Bedanya?
             </h1>
             <p>
               Untuk memahami apakah React adalah library atau framework, penting
               untuk memahami perbedaan antara keduanya:
             </p>
-            <ul className="px-12 list-disc mt-5">
+            <ul className="px-12 list-disc mt-5 ">
               <li>
                 Library: Sebuah library adalah kumpulan fungsi dan modul yang
                 dirancang untuk melakukan tugas-tugas spesifik. Library
@@ -66,7 +68,7 @@ export default function Page() {
                 manajemen state, routing, dan komunikasi dengan server.
               </li>
             </ul>
-            <h1 className="mt-20 mb-5 text-xl text-white">
+            <h1 className="mt-20 mb-5 text-xl text-white dark:text-black">
               React: Library atau Framework?
             </h1>
             <p>

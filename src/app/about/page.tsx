@@ -20,7 +20,7 @@ export default function Page() {
                 </div>
               </div>
               <div className="lg:order-first lg:row-span-2">
-                <h1 className="text-4xl font-bold leading-[3rem] sm:leading-normal sm:text-5xl">
+                <h1 className="text-4xl font-bold leading-[3rem] sm:leading-normal sm:text-5xl dark:text-black">
                   {
                     "I'm Harsena Argretya, an indonesia Developer Living in Yogyakarta ID."
                   }
