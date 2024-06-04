@@ -25,8 +25,8 @@ const experiences: Experience[] = [
     endYear: 2022,
   },
   {
-    alt: "SMP 1 MOJOTENGAH",
-    company: "SMP 1 MOJOTENGAH",
+    alt: "SMP 1 Mojotengah",
+    company: "SMP 1 Mojotengah",
     // role: "Software Engineer",
     startYear: 2016,
     endYear: 2019,
