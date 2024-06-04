@@ -10,6 +10,7 @@ import Container from "@/components/container";
 import Logo from "@/components/logo";
 import ThemeContextProvider from "@/ui/theme-context";
 import ThemeSwitch from "@/components/theme-switch";
+import { Analytics } from "@vercel/analytics/react";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -35,6 +36,7 @@ export default function RootLayout({
               <ThemeSwitch />
               <Header />
               {children}
+              <Analytics />
               <Footer />
             </Container>
           </body>
