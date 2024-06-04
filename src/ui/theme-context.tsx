@@ -23,43 +23,28 @@ export default function ThemeContextProvider({
   const toggleTheme = () => {
     if (theme === "light") {
       setTheme("dark");
-      window.localStorage.setItem("theme", "light"); // Ubah menjadi "light"
+      window.localStorage.setItem("theme", "dark");
       document.documentElement.classList.add("dark");
     } else {
       setTheme("light");
-      window.localStorage.setItem("theme", "dark"); // Ubah menjadi "dark"
+      window.localStorage.setItem("theme", "light");
       document.documentElement.classList.remove("dark");
     }
   };
 
   useEffect(() => {
-    const localTheme = window.localStorage.getItem("theme");
-    const systemPrefersDark = window.matchMedia(
-      "(prefers-color-scheme: dark)"
-    ).matches;
+    const localTheme = window.localStorage.getItem("theme") as Theme | null;
 
-    if (localTheme === "dark" || (!localTheme && systemPrefersDark)) {
+    if (localTheme) {
+      setTheme(localTheme);
+
+      if (localTheme === "dark") {
+        document.documentElement.classList.add("dark");
+      }
+    } else if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
       setTheme("dark");
       document.documentElement.classList.add("dark");
-    } else {
-      setTheme("light");
-      document.documentElement.classList.remove("dark");
     }
-
-    const mediaQuery = window.matchMedia("(prefers-color-scheme: dark)");
-    const handleMediaQueryChange = (e: MediaQueryListEvent) => {
-      if (e.matches) {
-        setTheme("dark");
-        document.documentElement.classList.add("dark");
-      } else {
-        setTheme("light");
-        document.documentElement.classList.remove("dark");
-      }
-    };
-
-    mediaQuery.addEventListener("change", handleMediaQueryChange);
-    return () =>
-      mediaQuery.removeEventListener("change", handleMediaQueryChange);
   }, []);
 
   return (
