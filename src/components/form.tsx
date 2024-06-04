@@ -57,7 +57,7 @@ export default function Form() {
                   className="stroke-zinc-400 dark:stroke-zinc-500"
                 ></path>
               </svg>
-              <p>{"Ask me anything"}</p>
+              <p className="dark:text-black">{"Ask me anything"}</p>
             </div>
             <div className="mt-4">
               <span className=" text-zinc-500 text-sm">
