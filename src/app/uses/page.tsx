@@ -8,12 +8,12 @@ export default function Page() {
           <header className="text-4xl font-bold leading-[3rem] sm:leading-normal sm:text-5xl mt-20 dark:text-black">
             {"No programmer who doesn't have a dream computer setup."}
           </header>
-          <p className="text-zinc-500 mx-auto leading-8">
+          <p className="text-zinc-500 mx-auto leading-8 mt-10">
             {
               "When I was in high school, I really wanted to have a pc setup until I had to buy prints of pc images and then put them in my wallet, alhamduliilah when I was in college I started to be able to set up a pc, even though it took 4 semesters to collect one item."
             }
           </p>
-          <div className="mt-16 text-zinc-500">
+          <div className=" text-zinc-500 mt-20 mb-40">
             <h1 className="mb-5 text-white dark:text-black">
               {"The beginning"}
             </h1>

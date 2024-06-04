@@ -60,7 +60,7 @@ export default function LinkA() {
         </time>
       </article>
       {/* 2 */}
-      <article className="md:grid md:grid-cols-4 md:items-baseline mt-20  py-5 border-zinc-800 dark:border-zinc-100">
+      <article className="md:grid md:grid-cols-4 md:items-baseline mt-5  py-5 border-zinc-800 dark:border-zinc-100">
         <div className="md:col-span-3 group relative flex flex-col items-start">
           <h2 className="text-base font-semibold tracking-tight dark:text-zinc-800 text-zinc-100">
             <div className="absolute -inset-y-6 -inset-x-4 z-0 scale-95 dark:bg-zinc-50 opacity-0 transition group-hover:scale-100 group-hover:opacity-100 bg-zinc-800/50 sm:-inset-x-6 sm:rounded-2xl"></div>
@@ -116,7 +116,7 @@ export default function LinkA() {
         </time>
       </article>
       {/* 3 */}
-      <article className="md:grid md:grid-cols-4 md:items-baseline mt-20  py-5 border-zinc-800 dark:border-zinc-100">
+      <article className="md:grid md:grid-cols-4 md:items-baseline mt-5  py-5 border-zinc-800 dark:border-zinc-100">
         <div className="md:col-span-3 group relative flex flex-col items-start">
           <h2 className="text-base font-semibold tracking-tight dark:text-zinc-800 text-zinc-100">
             <div className="absolute -inset-y-6 -inset-x-4 z-0 scale-95 dark:bg-zinc-50 opacity-0 transition group-hover:scale-100 group-hover:opacity-100 bg-zinc-800/50 sm:-inset-x-6 sm:rounded-2xl"></div>
