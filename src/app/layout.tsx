@@ -33,10 +33,11 @@ export default function RootLayout({
           >
             <Container>
               {/* <Logo /> */}
-              <ThemeSwitch />
+
               <Header />
               {children}
               <Analytics />
+              <ThemeSwitch />
               <Footer />
             </Container>
           </body>
