@@ -1,23 +1,23 @@
-import Form from "@/components/form";
-import Avatar from "@/components/image";
-import Link from "next/link";
-import { FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa6";
+import Form from '@/components/form';
+import Avatar from '@/components/image';
+import Link from 'next/link';
+import { FaGithub, FaInstagram, FaLinkedin } from 'react-icons/fa6';
 
 export default function Page() {
   const socials = [
     {
-      link: "https://www.linkedin.com/in/harsena-argretya/",
-      label: "LinkedIn",
+      link: 'https://www.linkedin.com/in/harsenaargretya/',
+      label: 'LinkedIn',
       Icon: FaLinkedin,
     },
     {
-      link: "https://github.com/Anezz12",
-      label: "Github",
+      link: 'https://github.com/Anezz12',
+      label: 'Github',
       Icon: FaGithub,
     },
     {
-      link: "https://instagram.com/argretya",
-      label: "Instagram",
+      link: 'https://instagram.com/argretya',
+      label: 'Instagram',
       Icon: FaInstagram,
     },
   ];
@@ -29,7 +29,7 @@ export default function Page() {
             <Avatar />
             <h1 className="text-4xl font-bold leading-[3rem] sm:leading-normal sm:text-5xl dark:text-black">
               {
-                "<Harsena /> man with enthusiasm for JavaScript, React, and NextJs."
+                '<Harsena /> man with enthusiasm for JavaScript, React, and NextJs.'
               }
             </h1>
 
